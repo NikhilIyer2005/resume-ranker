@@ -48,11 +48,21 @@ Reads resumes in:
 ---------------------------------------------------------------------------
 
 ## 🛠️ Tech Stack
-1.      UI         ->  Streamlit
-2. Text Processing ->  Scikit-learn (TF-IDF, Cosine Similarity)
-3. File Handling   ->  PyPDF2
-4.      Data       ->  Python
-5.   Deployment    ->  Streamlit Cloud / GitHub
+### UI
+- Streamlit
+
+### Text Processing
+- Scikit-learn (TF-IDF, Cosine Similarity)
+
+### File Handling
+- PyPDF2
+
+### Data / Core Language
+- Python
+
+### Deployment
+- Streamlit Cloud
+- GitHub
 
 ---------------------------------------------------------------------------
 
@@ -67,14 +77,21 @@ Reads resumes in:
 ---------------------------------------------------------------------------
 
 ## 📦 Installation
-1.  Clone the repository
+1. **Clone the repository**
+    ```bash
     git clone https://github.com/NikhilIyer2005/resume-ranker.git
-    
     cd resume-ranker
-2.  Install Dependencies
+    ```
+
+2. **Install dependencies**
+    ```bash
     pip install -r requirements.txt
-3.  Run the Application
+    ```
+
+3. **Run the application**
+    ```bash
     streamlit run app.py
+    ```
 
 ---------------------------------------------------------------------------
 
@@ -99,7 +116,7 @@ Weights are adjustable in the code.
 ---------------------------------------------------------------------------
 
 ## 🔧 Customization
-✏️ Edit skills in app.py:
+### ✏️ Edit skills in app.py:
 
     SKILL_KEYWORDS = [
         # Languages
@@ -125,7 +142,7 @@ Weights are adjustable in the code.
         "git", "agile", "scrum",
     ]
 
-➕ You can extend the skill list for roles such as:
+### ➕ You can extend the skill list for roles such as:
     - Data Science
     - Cybersecurity
     - Product Management
