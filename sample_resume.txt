@@ -1,0 +1,2 @@
+I am a CS student with experience in Python and Java.
+I worked on backend APIs and GitHub projects.
