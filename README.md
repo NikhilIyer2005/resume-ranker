@@ -48,33 +48,32 @@ Reads resumes in:
 ---------------------------------------------------------------------------
 
 ## 🛠️ Tech Stack
-
-**Component**           **Technology**
-    UI                     Streamlit
-Text Processing          Scikit-learn (TF-IDF, Cosine Similarity)
-File Handling               PyPDF2
-    Data                    Python
- Deployment              Streamlit Cloud / GitHub
+1.      UI         ->  Streamlit
+2. Text Processing ->  Scikit-learn (TF-IDF, Cosine Similarity)
+3. File Handling   ->  PyPDF2
+4.      Data       ->  Python
+5.   Deployment    ->  Streamlit Cloud / GitHub
 
 ---------------------------------------------------------------------------
 
 ## 📂 Project Structure
-resume-ranker/
-│
-├── app.py              # Main Streamlit app
-├── README.md           # Project Documentation
-├── requirements.txt    # Dependencies
-├── sample_resume.txt   # Example resume
-└── MIT LICENSE         # Open-source license
+    resume-ranker/
+    │
+    ├── app.py               # Main Streamlit application
+    ├── README.md            # Project documentation
+    ├── requirements.txt     # Python dependencies
+    ├── sample_resume.txt    # Example resume file
+    └── MIT LICENSE          # Open-source license
 ---------------------------------------------------------------------------
 
 ## 📦 Installation
-1. # Clone the repository
+1.  Clone the repository
     git clone https://github.com/NikhilIyer2005/resume-ranker.git
+    
     cd resume-ranker
-2. # Install Dependencies
+2.  Install Dependencies
     pip install -r requirements.txt
-3. # Run the Application
+3.  Run the Application
     streamlit run app.py
 
 ---------------------------------------------------------------------------
@@ -100,33 +99,39 @@ Weights are adjustable in the code.
 ---------------------------------------------------------------------------
 
 ## 🔧 Customization
-Add or edit skills:
-    - Modify in app.py
+✏️ Edit skills in app.py:
+
     SKILL_KEYWORDS = [
-    # Languages
-    "python", "java", "c++", "javascript", "typescript", "c#", "go", "rust",
-    # Backend / APIs / frameworks
-    "rest", "rest apis", "graphql", "django", "flask", "spring boot",
-    "node.js", "express.js", "fastapi",
-    # Databases
-    "sql", "mysql", "postgresql", "mongodb", "redis",
-    # Cloud / devops
-    "aws", "azure", "gcp", "docker", "kubernetes", "linux",
-    # Data / ML
-    "pandas", "numpy", "scikit-learn", "tensorflow", "pytorch",
-    "machine learning", "data analysis",
-    # General SWE / process
-    "system design", "unit testing", "integration testing",
-    "continuous integration", "continuous deployment",
-    "git", "agile", "scrum",
-]
-You can easily expand this list for:
+        # Languages
+        "python", "java", "c++", "javascript", "typescript", "c#", "go", "rust",
+
+        # Backend / APIs / frameworks
+        "rest", "rest apis", "graphql", "django", "flask", "spring boot",
+        "node.js", "express.js", "fastapi",
+
+        # Databases
+        "sql", "mysql", "postgresql", "mongodb", "redis",
+
+        # Cloud / devops
+        "aws", "azure", "gcp", "docker", "kubernetes", "linux",
+    
+        # Data / ML
+        "pandas", "numpy", "scikit-learn", "tensorflow", "pytorch",
+        "machine learning", "data analysis",
+
+        # General SWE / process
+        "system design", "unit testing", "integration testing",
+        "continuous integration", "continuous deployment",
+        "git", "agile", "scrum",
+    ]
+
+➕ You can extend the skill list for roles such as:
     - Data Science
     - Cybersecurity
     - Product Management
     - Marketing
     - Finance
-    - etc
+    - And more...
 
 ---------------------------------------------------------------------------
 
