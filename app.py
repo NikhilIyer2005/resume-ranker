@@ -14,7 +14,10 @@ st.markdown(
         border-radius: 0.8rem;
         border: 1px solid #e0e0e0;
         margin-bottom: 1rem;
-        background-color: #ffffff;
+
+        background: var(--secondary-background-color) !important;
+        color: var(--text-color) !important;
+        border: 1px solid rgba(128, 128, 128, 0.25);
         box-shadow: 0 1px 3px rgba(0,0,0,0.04);
     }
     .score-title{
